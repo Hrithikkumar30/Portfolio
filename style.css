@@ -1,0 +1,17 @@
+section {
+    height: 500px;
+    background-color: yellow;
+    border: solid black 1px;
+
+}
+.hero{
+    background-color: rgb(15, 22, 22);
+    height: 100vh;
+    color: aliceblue;
+    font: size 40px; ;
+
+}
+footer{
+    height: 500px;
+    background-color: palevioletred;
+}
