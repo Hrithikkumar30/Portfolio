@@ -1,7 +1,5 @@
 body{
-    font-family: 'BhuTuka Expanded One';
-    font-family: 'Cabin', sans-serif;
-    font-family: 'Kolker Brush', ;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -43,14 +41,23 @@ h1{
 }
 p{
     margin: 0;
-    font-weight: 600;
+    font-weight:300;
+    font-size: 30px;
 }
 li{
     /* width: 200px; */
     text-decoration: none;
 }
+.hero-area{
+    display: flex;
+    /* flex-direction:column ; */
+    height: 100%;
+    justify-content: space-between;
+    align-items:center;
+}
 .hero-text{
-    margin-left: 40px;
+    margin-left: 80px;
+    margin-bottom: 200px;
 }
 .button{
     height: 60px;
@@ -58,4 +65,26 @@ li{
     background-color: coral;
     border-radius: 30px;
     text-align: center;
+    font-weight:300;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.button:hover{
+    background-color: lightsalmon;
+}
+.button:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+.socials{
+    padding-bottom: 200px ;
+}
+.logo{
+    height: 100px;
+    margin: 30px;
+}
+.social{
+    margin: 20px;
+
 }
