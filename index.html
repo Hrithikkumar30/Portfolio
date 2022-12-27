@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cabin:ital@1&family=Kolker+Brush&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/24c0112136.js" crossorigin="anonymous"></script>
     <title>Portfio</title>
 </head>
 <body>
@@ -13,10 +14,13 @@
         <nav>
             <img class="logo" src="src/img/logo.png" alt="HK logo"/>
             <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact me</li>
+                <li><a href="#about-me">About Me</a> </li>
+                <li><a href="#projects">Projects</a> </li>
+                <li><a href="#contact-me">Contact me</a> </li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
@@ -43,7 +47,7 @@
         
     </section>
     
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
             <p>Hello, My name is Hrithik Kumar, I am a Machine Learning and Data Science Enthusiast </p>
@@ -52,7 +56,7 @@
             <img class="headshot" src="src/img/self2.png" alt="">
         </div>
     </section>
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
         <h2>Project</h2>
        <div class="project-container">
         <div class="project-card">
@@ -87,7 +91,10 @@
        </div> 
         
     </section>
-    <footer></footer>
+    <footer id="contact-me">
+        <h2> Contact me</h2>
+        <p> hrithikiitian@gmail.com</p>
+    </footer>
 
     <script src="src/app.js"></script>
 </body>

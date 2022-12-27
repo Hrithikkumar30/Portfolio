@@ -19,8 +19,9 @@ section {
 
 }
 footer{
-    height: 500px;
-    background-color: palevioletred;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
 }
 
 nav{
@@ -117,6 +118,13 @@ li{
     display: flex;
     justify-content: space-around;
 }
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 .sub-section-alternative{
     display:flex;
     flex-direction: column;
@@ -142,4 +150,27 @@ hr{
     text-decoration : none;
     color: orange;
 
+}
+a{
+    text-decoration: none ;
+    color: whitesmoke;
+}
+
+.hamburger{
+
+    display:none;
+
+}
+
+@media only screen and (max-width:1000px){
+    .hamburger{
+        display:block;
+        border: 0;
+        background-color: transparent;
+        color:whitesmoke;
+        font-size:30px
+    }
+    ul{
+        display: none;
+    }
 }
